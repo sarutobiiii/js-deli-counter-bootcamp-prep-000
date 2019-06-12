@@ -11,6 +11,6 @@ function nowServing(katzDeli) {
     i++
   }
   if i === 0 {
-    
+    return("There is nobody waiting to be served!")
   }
 }
