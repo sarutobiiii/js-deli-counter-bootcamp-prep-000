@@ -1,3 +1,6 @@
-function takeANumber(line, name) {
+var katzDeli = []
+
+function takeANumber(katzDeli, name) {
+  katzDeli.push(`${name}`)
   return "Welcome, Ada. You are number 1 in line."
 }
